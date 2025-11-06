@@ -1,11 +1,15 @@
-description: "Compare prompt styles for answering a question"
+description: "Compare prompt styles for cricket commentary"
+
 prompts:
-  - label: "Simple Answer"
-    prompt: "Answer briefly: {{query}}"
-  - label: "Detailed Answer"
-    prompt: "Explain clearly and in detail: {{query}}"
+  - label: "Short Commentary"
+    prompt: "Give a short, exciting cricket commentary for this match: {{query}}"
+
+  - label: "Detailed Analysis"
+    prompt: "Provide a detailed, professional cricket commentary and analysis for: {{query}}"
+
 providers:
-  - openai:gpt-4o-mini
+  - openai:gpt-4o-mini  # You can replace with any available model
+
 tests:
   - vars:
-      query: "What is Retrieval-Augmented Generation?"
+      query: "India vs Pakistan World Cup 2023 group stage match"
