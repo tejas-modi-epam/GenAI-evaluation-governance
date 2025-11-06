@@ -1,0 +1,11 @@
+description: "Compare prompt styles for answering a question"
+prompts:
+  - label: "Simple Answer"
+    prompt: "Answer briefly: {{query}}"
+  - label: "Detailed Answer"
+    prompt: "Explain clearly and in detail: {{query}}"
+providers:
+  - openai:gpt-4o-mini
+tests:
+  - vars:
+      query: "What is Retrieval-Augmented Generation?"
