@@ -14,7 +14,7 @@ def run_cricket_evaluation():
 
     results = evaluate(dataset=dataset, metrics=[faithfulness, answer_relevance])
 
-    print("\n ricket Answer Evaluation Results:")
+    print("\n Cricket Answer Evaluation Results:")
     for k, v in results.items():
         print(f"{k}: {v:.3f}")
 
