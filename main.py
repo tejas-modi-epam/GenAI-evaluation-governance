@@ -21,4 +21,4 @@ def run_cricket_evaluation():
 if __name__ == "__main__":
     print("=== Evaluating Cricket Question Answer ===")
     run_cricket_evaluation()
-    print("\n Done! Now try comparing prompts with Promptfoo (next step).")
+    print("\n Done! Now try comparing prompts with Promptfoo.")
