@@ -8,7 +8,7 @@ prompts:
     prompt: "Provide a detailed, professional cricket commentary and analysis for: {{query}}"
 
 providers:
-  - openai:gpt-4o-mini  # You can replace with any available model
+  - openai:gpt-4o-mini
 
 tests:
   - vars:
